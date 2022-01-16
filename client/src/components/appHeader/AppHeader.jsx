@@ -31,7 +31,7 @@ function AppHeader() {
 
   const location = useLocation();
   const buttonMode = (path) => {
-    return location.pathname === path ? "solid" : "ghost";
+    return location.pathname.includes(path) ? "solid" : "ghost";
   };
 
   const startLogin = (e) => {
