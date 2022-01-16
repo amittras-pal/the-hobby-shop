@@ -4,10 +4,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>
-          This is the latest Code version! You should see this one instead of
-          the olders stuff.
-        </p>
+        <p>Some other changes going here</p>
         <a
           className="App-link"
           href="https://reactjs.org"
