@@ -1,6 +1,7 @@
 import { MdOutlineTipsAndUpdates, MdPerson } from "react-icons/md";
 import Apps from "../components/views/apps/Apps";
-import Blog from "../components/views/blog/Blog";
+import WordPress from "../components/views/blog/WordPress";
+import Medium from "../components/views/blog/Medium";
 import Hobbies from "../components/views/hobbies/Hobbies";
 import Home from "../components/views/home/Home";
 
@@ -21,8 +22,14 @@ const routeMenu = [
   },
   {
     label: "Blog",
-    path: "/blog",
-    element: <Blog />,
+    path: "/wordpress-blog",
+    element: <WordPress />,
+    showInMenu: false,
+  },
+  {
+    label: "Blog",
+    path: "/medium-blog",
+    element: <Medium />,
     showInMenu: false,
   },
   {
